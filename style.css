@@ -1,0 +1,46 @@
+button {
+    width: 300px;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+    border: 0px
+    }
+    
+    .nav, ul{
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-sidebar {
+        visibility: hidden;
+    }
+
+    .active {
+        visibility: visible;
+    }
+
+    .nav-sidebar ul li span, .nav-sidebar ul li button {
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        /* Nodig voor eerste (oude) functie
+        opacity: 1;*/    
+    }
+
+    .rood {
+        background:#f65d5d;
+    }
+    .groen {
+        background:#50a42e;
+    }
+    .blauw {
+        background: #2195e1;
+    }
+    .paars {
+        background:#905b95;
+    }
+
+    .reset {
+        background: #fff;
+    }
